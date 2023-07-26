@@ -1,0 +1,55 @@
+
+<head>
+<!--
+Problem: Online Shop Order Fulfillment
+
+
+You are tasked with developing a program to streamline the order fulfillment process for an online shop.
+The shop receives orders for various products, and your program should handle the following functionalities:
+
+
+Inventory Management: Keep track of the available quantity of each product in the inventory.
+                      When an order is placed, ensure that there is sufficient stock to fulfill the order.
+
+
+Order Processing: Process the orders as they come in. Update the inventory quantity accordingly and
+                  generate a confirmation email to the customer.
+
+
+Stock Alerts: Monitor the inventory levels and generate alerts when the quantity of a product falls
+              below a specified threshold. The alerts should provide the product name and the current
+              quantity in stock.
+
+
+Sales Analytics: Generate sales reports to track the performance of products. This report should include
+                 information such as the total sales revenue, the best-selling products, and the
+                 least-selling products.
+
+// Rebuilt code after trying to split it for Github without success. I was worried I wouldnt be able to get the original code. 
+It actually feels like some details are different but I am happy I was able to make it work again. 
+
+-->
+<title>Gadget Genie</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1>Welcome to Gadget Genie!</h1>
+        <p>We are a store selling the latest gadgets and consumer electronics specifically curated for the tech-savvy audience.</p>
+        <p>Here is the products catalog, get yours while they last:</p>
+        <div class="product-grid" id="productsCatalog"></div>
+        <br>
+        <label for="productNumber">Enter product number:</label>
+        <input type="number" id="productNumber" min="1" max="10">
+        <label for="quantity">Enter quantity:</label>
+        <input type="number" id="quantity" min="1">
+        <button onclick="processOrder()">Add to Cart</button>
+        <button onclick="checkOut()">Check Out</button>
+        <p id="orderStatus"></p>
+        <p id="currentShoppingCart"></p>
+        <p id="TotalCompra"></p>
+        <p id="BestSeller"></p>
+        <p id="WorstSeller"></p>
+        <script src="assets/script.js"></script>
+    </div>
+   

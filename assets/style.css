@@ -1,0 +1,119 @@
+h1 {
+    font-size: 44px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    font-size: 17px;
+    padding: 8px 20px;
+}
+
+input {
+    font-size: 17px;
+    padding: 8px;
+}
+
+label {
+    font-size: 17px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/*.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+} */
+
+.product-image {
+    width: 100%;
+    height: 258px; /* Reduced the height to fit better */
+    object-fit: contain;
+    padding: 8px;
+  /* Using 'contain' instead of 'cover' to ensure the whole image is visible */
+}
+
+/* ... (previous CSS rules) ... */
+
+
+.product-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.order-status {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.total-compra {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.best-seller {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.worst-seller {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
