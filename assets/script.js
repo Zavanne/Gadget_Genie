@@ -80,7 +80,7 @@
 
 
     // Set the "src" attribute to the corresponding image path for each product
-    productImage.src = "images/" + productImages[row];
+    productImage.src = "Images/" + productImages[row];
 
 
     productImage.alt = products[row];
@@ -254,7 +254,7 @@
 
 
     // Set the "src" attribute to the corresponding image path for each product
-    productImage.src = "images/" + productImages[row];
+    productImage.src = "Images/" + productImages[row];
 
 
     productImage.alt = products[row];
